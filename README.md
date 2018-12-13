@@ -1,5 +1,5 @@
 # Linux VM CPU Scheduler
-Tool for allocating CPU resources for virtual machines running in Linuxi
+Tool for allocating CPU resources for virtual machines running in Linux
 
 ## About
 
@@ -8,36 +8,36 @@ This project presents a simple method for allocating CPU resources in a multicor
 ## Project Contents
 
 This project contains the following items:
-* Readme (this file)
-* Makefile
-* vcpu_scheduler (pre-compiled binary)
-* vcpu_scheduler.c
-* vcpu_scheduler.h
-* math_func.c
-* math_func.h
-* math_func.o (pre-compiled)i
+* `README.md` (this file)
+* `Makefile`
+* `vcpu_scheduler` (pre-compiled binary)
+* `vcpu_scheduler.c`
+* `vcpu_scheduler.h`
+* `math_func.c`
+* `math_func.h`
+* `math_func.o` (pre-compiled)i
 
 ## How to Compile
 
 Verify the following packages are installed:
 
-* qemu-kvm
-* libvirt-bin
-* libvirt-dev
-* virt-manager
-* qemu-system
-* uvtool
-* uvtool-libvirt
+* `qemu-kvm`
+* `libvirt-bin`
+* `libvirt-dev`
+* `virt-manager`
+* `qemu-system`
+* `uvtool`
+* `uvtool-libvirt`
 
 This project also utilizes the math libraries (math.h, linked via -lm)
 
-To compile:
+To compile:  
     `$ make`
 
-To clean:
+To clean:  
     `$ make clean`
 
-To clean and recompile:
+To clean and recompile:  
     `$make clean; make`
 
 ## How to Run
